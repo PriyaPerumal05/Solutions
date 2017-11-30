@@ -1,0 +1,135 @@
+-- ProblemSet<Problem Set1>, November <30> <2017> 
+-- Submission by <priya.a.perumal@accenture.com>
+
+
+1.List full details of all hotels
+
+
+HOTEL_NO	NAME	CITY
+H111	Empire Hotel	New York
+H235	Park Place	New York
+H432	Brownstone Hotel	Toronto
+H498	James Plaza	Toronto
+H193	Devon Hotel	Boston
+H437	Clairmont Hotel	Boston
+
+2.List full details of all hotels in New York
+
+
+HOTEL_NO	NAME	CITY
+H111	Empire Hotel	New York
+H235	Park Place	New York
+
+3.List the names and cities of all guests,ordered according to their cities
+
+
+NAME	        CITY
+Robert Swift	Atlanta
+Tara Cummings	Baltimore
+Edward Cane	Baltimore
+Tom Hancock	Philadelphia
+Adam Wayne	Pittsburgh
+Vanessa Parry	Pittsburgh
+
+4. List all the non-smoking rooms in ascending order of price
+
+
+
+ROOM_NO	HOTEL_NO TYPE	PRICE
+257	H437	N	140.00
+412	H111	N	145.00
+223	H437	N	155.00
+345	H498	N	160.00
+1201	H193	N	175.00
+1267	H235	N	175.00
+467	H498	N	180.00
+1289	H235	N	195.00
+
+5. List the number of hotels there are.
+
+
+COUNT(HOTEL_NO)
+6
+
+6. List the cities in which the guest live.Each city should be listed only once
+
+CITY
+Baltimore
+Pittsburgh
+Atlanta
+Philadelphia
+
+7. List the average price of  a room
+
+
+AVG(PRICE)
+155.66666666666666
+
+8. List hotel names,their room numbers,and the type of that room.
+
+
+NAME	      ROOM_NO  TYPE
+Empire Hotel	313	S
+Empire Hotel	412	N
+Park Place	1267	N
+Park Place	1289	N
+Brownstone Hotel876	S
+Brownstone Hotel898	S
+James Plaza	345	N
+James Plaza	467	N
+Devon Hotel	1001	S
+Devon Hotel	1201	N
+Clairmont Hotel	257	N
+Clairmont Hotel	223	N
+
+9. List hotel names,booking date,room number for all hotels in new york
+
+ 
+
+NAME	        DATE_FROM	        DATE_TO	                ROOM_NO
+Empire Hotel	1999-08-10T00:00:00Z	1999-08-15T00:00:00Z	412
+Empire Hotel	1999-08-18T00:00:00Z	1999-08-21T00:00:00Z	412
+Park Place	1999-09-05T00:00:00Z	1999-09-12T00:00:00Z	1267
+
+10.What is the number of bookings that started in the month of September?
+
+
+NO_OF_BOOKING
+4
+
+11.List the names and cities of guests who began a stay in New York in August.
+
+
+NAME	        CITY
+Adam Wayne	Pittsburgh
+Tara Cummings	Baltimore
+
+12. List the hotel names and room numbers of any hotel rooms that have not been booked
+
+
+
+NAME	                ROOM_NO
+Brownstone Hotel	876
+Brownstone Hotel	898
+
+ 13. List the hotel name and city of the hotel with the highest priced room.
+
+
+NAME	        CITY
+Park Place	New York
+
+14.  List hotel names, room numbers, cities, and prices for hotels that have rooms with prices lower than the lowest priced room in a Boston 
+
+
+
+NAME	                CITY   ROOM_NO  PRICE
+Brownstone Hotel	Toronto	876	124.00
+Brownstone Hotel	Toronto	898	124.00
+
+15.List the average price of a room grouped by city.
+
+
+AVG(PRICE)
+165
+147
+155
